@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bondi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/index.html" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <title>Motorix</title>
+  </head>
+  <body>
+    <script src="js/index.js"></script>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo.jpg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#Portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#footer">Contact</a>
+            </li>
+          </ul>
+          <div class="search ps-3 pe-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <a class="btn rounded-pill main-btn" href="login.html" target="_blank"
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div
+      class="landing d-flex justify-content-center align-items-center text-light"
+    >
+      <div class="text-center">
+        <h1 class="fw-bold">Find The Right Car For You</h1>
+        <p class="fs-6 text-white-50 mb-3 text-uppercase">
+          You Can Rest Assured That We Will Make Sure Your Car Is The Best
+        </p>
+        <a class="btn rounded-pill main-pill main-btn text-uppercase" href="#"
+          >See For Yourself</a
+        >
+      </div>
+    </div>
+    <div class="features text-center pt-5 pb-5" id="services">
+      <div class="container">
+        <div class="main-title mt-5 mb-5 position-relative">
+          <h2>We are good at</h2>
+          <p class="text-black-50 text-uppercase">
+            Expresses attention to every detail of your car.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-1 position-absolute bottom-0 number"></i>
+                <i
+                  class="fa-solid fa-car-rear fa-4x position-absolute bottom-0 icon"
+                ></i>
+              </div>
+              <h4 class="mb-4 mt-4 text-uppercase">Stunning Car Designs</h4>
+              <p class="text-black-50 lh-lg">
+                We specialize in offering the latest car designs that combine
+                elegance and performance. Whether you're looking for luxury cars
+                or family vehicles, we have the perfect fit for you.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-2 position-absolute bottom-0 number"></i>
+                <i
+                  class="fa-solid fa-screwdriver-wrench fa-4x position-absolute bottom-0 icon"
+                ></i>
+              </div>
+              <h4 class="mb-4 mt-4 text-uppercase">
+                Professional Car Maintenance
+              </h4>
+              <p class="text-black-50 lh-lg">
+                We offer comprehensive car maintenance services to ensure
+                optimal performance and safety. From oil changes to engine
+                checks, we’re here to take care of your vehicle.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="feat">
+              <div class="icon-holder position-relative">
+                <i class="fa-solid fa-3 position-absolute bottom-0 number"></i>
+                <i
+                  class="fa-solid fa-car-battery fa-4x position-absolute bottom-0 icon"
+                ></i>
+              </div>
+              <h4 class="mb-4 mt-4 text-uppercase">Batteries</h4>
+              <p class="text-black-50 lh-lg">
+                Your car’s battery is its power source. We provide battery
+                maintenance and replacement services to ensure reliable starts
+                every time. Discover the best batteries for your car.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-work text-center pt-5 pb-5" id="Portofolio">
+      <div class="container">
+        <div class="main-title mt-5 mb-5 position-relative">
+          <h2>Take a look at our car models</h2>
+          <p class="text-black-50 text-uppercase">
+            Hurry! Some models are already sold out
+          </p>
+        </div>
+        <ul class="list-unstyled d-sm-block d-md-flex justify-content-center mt-5 mb-5">
+          <li class="active rounded-pill" data-filter="all">All</li>
+          <li class="rounded-pill" data-filter="Audi">Audi</li>
+          <li class="rounded-pill" data-filter="Mercedes">Mercedes</li>
+          <li class="rounded-pill" data-filter="BMW">BMW</li>
+          <li class="rounded-pill" data-filter="Hyundai">Hyundai</li>
+          <li class="rounded-pill" data-filter="Koleos">Renaukt Koleos</li>
+        </ul>
+        <div class="row position-relative">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Audi" data-work="Audi Q8 2024">
+              <img src="imgs/audi.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Audi" data-work="Audi Q3 2024">
+              <img src="imgs/redaudi.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Audi" data-work="Audi Q3 2024">
+              <img src="imgs/bluaudi.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white" data-work="Fiat">
+              <img src="imgs/mer.avif" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white" data-work="Fiat">
+              <img src="imgs/btr.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white BMW" data-work="BMW 1Series">
+              <img src="imgs/au.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white BMW" data-work="BMW M4 Coupe">
+              <img src="imgs/carr.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Mercedes" data-work="Mercedes">
+              <img
+                src="imgs/mercedes_19c180bizsolunsd4fb_lowaggressive_obsidian-black-metallic.avif"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Koleos" data-work="Koleos">
+              <img src="imgs/kelos.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Koleos" data-work="Koleos">
+              <img src="imgs/bkelos.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Hyundai" data-work="Hyundai">
+              <img src="imgs/hb.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="box mb-3 bg-white Hyundai" data-work="Hyundai">
+              <img src="./imgs/h.jpeg" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <a class="btn rounded-pill main-btn text-uppercase" href="#"
+          >Read More</a
+        >
+      </div>
+    </div>
+    <div class="stuff pt-5" id="about">
+      <div class="container">
+        <div class="main-title text-center mt-5 mb-5 position-relative">
+          <h2>About Us</h2>
+          <p class="text-black-50 text-uppercase">
+            Experts in Car Design & Innovation
+          </p>
+        </div>
+        <p class="disc text-center mb-5 text-black-50 m-auto">
+          We believe that design is not just about appearance—it’s about
+          performance and an unparalleled driving experience. Our goal is to
+          create cars that combine elegance, cutting-edge technology, and
+          driving pleasure.
+        </p>
+        <div class="row align-items-center">
+          <div
+            class="col-lg-4 mb-4 text-center text-md-start align-items-center"
+          >
+            <h4 class="mb-4">BMW Design</h4>
+            <p class="text-black-50 fs-6">
+              We specialize in high-precision car designs that reflect
+              craftsmanship and premium quality, Every detail is meticulously
+              crafted to ensure a modern, stylish, and dynamic look that suits
+              luxury car enthusiasts.
+            </p>
+            <p class="text-black-50 fs-6">
+              We merge creativity with state-of-the-art engineering to craft
+              vehicles that turn heads, rom selecting high-quality materials to
+              refining every detail in both interior and exterior design, we are
+              committed to delivering an unmatched driving experience.
+            </p>
+            <a
+              class="btn rounded-pill main-btn text-uppercase mt-3"
+              href="./item.html"
+              target="_blank"
+            >
+              Read More
+            </a>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="image">
+              <img src="./imgs/carr.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team text-center pb-5 pt-5">
+      <div class="container pb-5 pt-5">
+        <h2 class="fw-bold">Meet the team</h2>
+        <p class="text-black-50 mb-5 lh-lg">
+          Behind every exceptional experience on our website, there's a
+          passionate team working tirelessly to provide you with the best
+          service!
+        </p>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="./imgs/owner1.jpg" alt="" />
+              <h4 class="p-3 text-light">Christina Robert</h4>
+              <blockquote class="text-black-50 p-3">
+                Cars are not just a means of transportation; they are a passion
+                and a lifestyle, My goal is to help you find the perfect car
+                that fits your needs effortlessly.
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="./imgs/owner2.jpg" alt="" />
+              <h4 class="p-3 text-light">Ethan Jan</h4>
+              <blockquote class="text-black-50 p-3">
+                I believe every car has its own personality, and my mission is
+                to help you find the one that truly represents you and delivers
+                the best driving experience.
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="./imgs/owner3.jpg" alt="" />
+              <h4 class="p-3 text-light">Vector Leo</h4>
+              <blockquote class="text-black-50 p-3">
+                Quality and reliability come first, Whether you're looking for a
+                new or used car, we're here to ensure you get the best, We
+                carefully assess every vehicle to guarantee performance.
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="./imgs/owner4.jpg" alt="" />
+              <h4 class="p-3 text-light">Noah Boyed</h4>
+              <blockquote class="text-black-50 p-3">
+                It's not just about buying and selling—it's about building a
+                community of car enthusiasts where people can share their
+                experiences and find everything they need easily.
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="techs pt-5 pb-5 text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="https://www.bmw-egypt.com/en/index.html" target="_blank"
+              ><img src="./imgs/BMW.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="https://www.audi-eg.com/en/models/" target="_blank"
+              ><img src="./imgs/Audi.webp" alt="" class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="https://www.mercedes-benz.com.eg/en" target="_blank"
+              ><img src="./imgs/mercedes-benz.png" alt="" class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="https://hyundai-egypt.net/" target="_blank"
+              ><img src="./imgs/h1.png" alt="" class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="https://www.fiat.com.eg/" target="_blank"
+              ><img src="./imgs/fiatt.jpeg" alt="" class="img-fluid"
+            /></a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3 p-5">
+            <a href="http://www.renault-me.com/cars/New-Koleos/" target="_blank"
+              ><img src="./imgs/koleos.jpeg" alt="" class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects text-center pt-5 pb-5 text-light">
+      <h3 class="fw-bold">Find Your Dream Car Today!</h3>
+      <p class="text-whi-50">
+        Let’s start the engine! Select your preferences, and we’ll guide you to
+        the best options available.
+      </p>
+      <div class="d-flex justify-content-center mt-5 mb-5">
+        <a class="btn rounded-pill main-btn text-uppercase" href="#"
+          >Explore More Cars
+        </a>
+      </div>
+    </div>
+    <div class="blogs pb-5 pt-5" id="best">
+      <div class="container">
+        <div class="main-title text-center mt-5 mb-5 position-relative">
+          <h2>Best Seller</h2>
+          <p class="text-black-50 text-uppercase">new stories</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card position-relative">
+              <i
+                class="fa-solid fa-heart position-absolute rounded-circle p-2 text-light heart"
+              ></i>
+              <img
+                src="./imgs/audi.jpeg"
+                class="card-img-top border-bottom"
+                alt="blog post 1"
+              />
+              <div class="card-body">
+                <div class="rating" id="rating1">
+                  <i class="bi bi-star" data-rating="1"></i>
+                  <i class="bi bi-star" data-rating="2"></i>
+                  <i class="bi bi-star" data-rating="3"></i>
+                  <i class="bi bi-star" data-rating="4"></i>
+                  <i class="bi bi-star" data-rating="5"></i>
+                </div>
+                <h5 class="card-title pt-1">
+                  "Comfort, technology, and style in one perfect ride!"
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card position-relative">
+              <i
+                class="fa-solid fa-heart position-absolute rounded-circle p-2 text-light heart"
+              ></i>
+              <img
+                src="./imgs/mercedes_19c180bizsolunsd4fb_lowaggressive_obsidian-black-metallic.avif"
+                class="card-img-top border-bottom"
+                alt="blog post 1"
+              />
+              <div class="card-body">
+                <div class="rating" id="rating2">
+                  <i class="bi bi-star" data-rating="1"></i>
+                  <i class="bi bi-star" data-rating="2"></i>
+                  <i class="bi bi-star" data-rating="3"></i>
+                  <i class="bi bi-star" data-rating="4"></i>
+                  <i class="bi bi-star" data-rating="5"></i>
+                </div>
+                <h5 class="card-title pt-1">
+                  "Your dream car is just a drive away!"
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card position-relative">
+              <i
+                class="fa-solid fa-heart position-absolute rounded-circle p-2 text-light heart"
+              ></i>
+              <img
+                src="./imgs/bkelos.jpeg"
+                class="card-img-top border-bottom"
+                alt="blog post 1"
+              />
+              <div class="card-body">
+                <div class="rating" id="rating3">
+                  <i class="bi bi-star" data-rating="1"></i>
+                  <i class="bi bi-star" data-rating="2"></i>
+                  <i class="bi bi-star" data-rating="3"></i>
+                  <i class="bi bi-star" data-rating="4"></i>
+                  <i class="bi bi-star" data-rating="5"></i>
+                </div>
+                <h5 class="card-title pt-1">
+                  "Drive the future with innovation and power!"
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <a class="btn rounded-pill main-btn text-uppercase" href="#"
+            >Order Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="subscribe pt-5 pb-5 text-center text-md-start">
+      <div class="container">
+        <form class="row align-items-center">
+          <div class="col-md-6 col-lg-3">
+            <div class="fw-bold fs-7 mb-3 text-light text-uppercase">
+              Subscribe to our Newsletter:
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-7 mb-5">
+            <input
+              class="w-100 text-light p-2 bg-transparent"
+              type="text"
+              placeholder="enter ur email add"
+            />
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <input class="btn rounded-pill" type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="footer pt-5 pb-5 text-white-50 text-center text-md-start"
+      id="footer"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="info">
+              <img src="./imgs/logo.jpg" alt="" />
+              <p class="mb-5 mt-4">
+                At Motorix, we offer the latest cars, maintenance, and rental
+                services with high quality and an exceptional experience for our
+                customers.
+              </p>
+              <div class="copy-right">
+                Created By <span>MennaHamadaElsba3i</span>
+                <div>
+                  &copy; 2025 - <span class="text-light fw-bold">Motorix</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <a href="#"><li>Home</li></a>
+                <a href="#services"><li>Our Services</li></a>
+                <a href="#Portofolio"><li>Portofolio</li></a>
+                <a href="#about"><li>Testmonials</li></a>
+                <a href=""><li>Support</li></a>
+                <a href=""><li>Terms And Conditions</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <a href="login.html"><li>Login</li></a>
+                <a href=""><li>Register</li></a>
+                <a href="#about"><li>About Us</li></a>
+                <a href="#best"><li>Best Seller</li></a>
+                <a href="#footer"><li>Contact Us</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">
+                Get in touch with us via mail phone, We are waiting for your
+                call or message
+              </p>
+              <a class="btn rounded-pill main-btn w-100" href="#"
+                >Mtorix@gmail.com</a
+              >
+              <ul class="d-flex mt-5 list-unstyled gap-3">
+                <li>
+                  <a
+                    class="d-block text-light"
+                    href="https://www.facebook.com/BMW"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#">
+                    <i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="d-block text-light"
+                    href="https://www.linkedin.com/company/bmw-group/"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="d-block text-light"
+                    href="https://www.youtube.com/@BMW"
+                    target="_blank"
+                  >
+                    <i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll(".list-unstyled li");
+        const boxes = document.querySelectorAll(".box");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+
+            this.classList.add("active");
+
+            const filterValue = this.getAttribute("data-filter");
+
+            boxes.forEach((box) => {
+              if (
+                filterValue === "all" ||
+                box.classList.contains(filterValue)
+              ) {
+                box.style.display = "block";      
+              } else {
+                box.style.display = "none"; 
+              }
+            });
+          });
+        });
+      });
+
+      document.querySelectorAll(".rating").forEach((ratingContainer) => {
+        const stars = ratingContainer.querySelectorAll(".bi-star");
+        stars.forEach((star) => {
+          star.addEventListener("click", () => {
+            const rating = star.getAttribute("data-rating");
+            stars.forEach((s, index) => {
+              if (index < rating) {
+                s.classList.add("bi-star-fill");
+                s.classList.remove("bi-star");
+              } else {
+                s.classList.add("bi-star");
+                s.classList.remove("bi-star-fill");
+              }
+            });
+            // alert(`Thank you! You rated this ${rating} stars!`);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

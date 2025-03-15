@@ -1,0 +1,35 @@
+.main-btn {
+     background-color: #ff0000;
+     color: white;
+     padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+     background-color: #ff0000;
+     color: white;
+}
+.category .container {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+.about {
+     left: -16px;
+}
+.category .btn {
+     
+     animation: left-to-right 0.5s linear infinite;
+
+}
+
+@keyframes left-to-right {
+     0%,
+     100% {
+       left: 0;
+     }
+   
+     50% {
+       left: -10px;
+     }
+   }
+   

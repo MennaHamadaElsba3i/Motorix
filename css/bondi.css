@@ -1,0 +1,241 @@
+:root {
+  --dark-color: #0a0b10;
+  --section-color: hsl(196, 52%, 96%);
+  --sec-color: rgb(243, 235, 235);
+  --btn-color: #ff0000;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  /* height: 10000px; */
+}
+.main-btn {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  transition-duration: 1s;
+  background-color: var(--btn-color);
+  color: white;
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: var(--dark-color);
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Start navbar */
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  height: 73px;
+  width: 180px;
+  background-color: var(--btn-color);
+  left: 110px;
+  top: -1px;
+  font-family: "Roboto", "sans-serif";
+}
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: white;
+  font-weight: bold;
+}
+.navbar .search {
+  border-left: 1px solid white;
+}
+
+.navbar .search svg {
+  color: white;
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+/* End navbar */
+
+/* start landing */
+.landing {
+  background-color: var(--section-color);
+  background-image: url(../imgs/R.jpeg);
+  background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: calc(100vh - 73px);
+}
+/* end landing */
+/* start features */
+.features {
+  background-color: (0 0 0 / 20%);
+}
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.features .icon-holder .icon {
+  color: var(--dark-color);
+}
+.features .feat h4 {
+  color: var(--dark-color);
+}
+/* end features */
+/* start our-work*/
+.our-work {
+  background-color: white;
+}
+.our-work ul .active {
+  background-color: var(--btn-color);
+  color: white;
+}
+.our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.our-work ul li:not(.active):hover {
+  color: var(--btn-color);
+}
+.our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.our-work .box::before {
+  content: attr(data-work);
+  position: absolute;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  background-color: #0000009c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before {
+  transform: translateX(0);
+}
+/* end our work */
+/* start stuff */
+.stuff .disc {
+  max-width: 500px;
+}
+/* end stuff */
+
+/* start team */
+.team {
+  background-color: var(--section-color);
+}
+.team h2 {
+  color: var(--dark-color);
+}
+.team .box h4 {
+  background-color: var(--btn-color);
+}
+/* end team */
+/* start projects */
+.projects {
+  background-color: black;
+}
+/* end projects */
+.blogs .card .heart {
+  /* width: 45px; */
+  background-color: var(--btn-color);
+  top: 13px;
+  right: 13px;
+}
+.bi-star-fill {
+  color: gold;
+}
+.bi-star {
+  color: gray;
+}
+/* start subscribe */
+.subscribe {
+  background-color: #333333;
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+.subscribe ::placeholder {
+  color: white;
+}
+.subscribe input[type="submit"] {
+  background-color: black;
+  color: white;
+}
+/* end subscribe */
+
+/* start footer */
+.footer {
+  background-color: black;
+}
+.footer .copy-right > span {
+  color: var(--btn-color);
+}
+/* .footer .copy-right div span {
+  color: #444444;
+} */
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer .links a {
+  color: #808080;
+}
+.footer .links a:hover {
+  color: whitesmoke;
+  transition-duration: 0.5s;
+}
+.footer .facebook:hover {
+  background-color: #1877f2;
+  transition-duration: 0.5s;
+}
+.footer .twitter:hover {
+  background-color: #1da1f2;
+  transition-duration: 0.5s;
+}
+.footer .linkedin:hover {
+  background-color: #0077b5;
+  transition-duration: 0.5s;
+}
+.footer .youtube:hover {
+  background-color: #ff0000;
+  transition-duration: 0.5s;
+}
+/* end footer */
